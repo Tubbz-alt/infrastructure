@@ -69,6 +69,7 @@ aur-dev.archlinux.org
 dragon.archlinux.org
 
 [gitlab_runners]
+runner1.archlinux.org
 runner2.archlinux.org
 secure-runner1.archlinux.org
 
@@ -107,3 +108,10 @@ bugs.archlinux.org
 gemini.archlinux.org
 luna.archlinux.org
 repro1.pkgbuild.com
+
+[kape_servers]
+asia.mirror.pkgbuild.com
+america.mirror.pkgbuild.com
+europe.mirror.pkgbuild.com
+repro2.pkgbuild.com
+runner1.archlinux.org
