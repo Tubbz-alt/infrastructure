@@ -500,6 +500,7 @@ resource "hetznerdns_record" "archlinux_org_mailman3_a" {
 resource "hetznerdns_record" "archlinux_org_master_key_a" {
   zone_id = hetznerdns_zone.archlinux.id
   name    = "master-key"
+  ttl     = 600
   value   = "138.201.81.199"
   type    = "A"
 }
@@ -710,6 +711,7 @@ resource "hetznerdns_record" "archlinux_org_conf_cname" {
 resource "hetznerdns_record" "archlinux_org_dev_cname" {
   zone_id = hetznerdns_zone.archlinux.id
   name    = "dev"
+  ttl     = 600
   value   = "apollo"
   type    = "CNAME"
 }
@@ -738,6 +740,7 @@ resource "hetznerdns_record" "archlinux_org_grafana_cname" {
 resource "hetznerdns_record" "archlinux_org_ipxe_cname" {
   zone_id = hetznerdns_zone.archlinux.id
   name    = "ipxe"
+  ttl     = 600
   value   = "apollo"
   type    = "CNAME"
 }
@@ -766,6 +769,7 @@ resource "hetznerdns_record" "archlinux_org_mailman_cname" {
 resource "hetznerdns_record" "archlinux_org_packages_cname" {
   zone_id = hetznerdns_zone.archlinux.id
   name    = "packages"
+  ttl     = 600
   value   = "apollo"
   type    = "CNAME"
 }
@@ -780,6 +784,7 @@ resource "hetznerdns_record" "archlinux_org_patchwork_cname" {
 resource "hetznerdns_record" "archlinux_org_planet_cname" {
   zone_id = hetznerdns_zone.archlinux.id
   name    = "planet"
+  ttl     = 600
   value   = "apollo"
   type    = "CNAME"
 }
